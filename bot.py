@@ -14,7 +14,7 @@ BASE_URL = "https://v3.football.api-sports.io"
 STATE_FILE = "seen.json"
 
 # Limite de segurança: no máximo 95 pedidos à API por dia.
-DAILY_API_LIMIT = 95
+DAILY_API_LIMIT = 80
 
 def load_state():
     try:
