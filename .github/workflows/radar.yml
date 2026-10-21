@@ -3,7 +3,7 @@ name: Radar de Gols
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/15 10-23 * * *"
   workflow_dispatch:
 
 permissions:
