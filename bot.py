@@ -250,4 +250,3 @@ state = load_state()
 
 if __name__ == "__main__":
     main()
-    telegram_send("Teste automático: o bot.py está a enviar mensagens!")
